@@ -1,0 +1,3 @@
+displayName = TestMod
+author = Janika
+version = 0.1

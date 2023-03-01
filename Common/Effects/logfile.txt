@@ -1,0 +1,17 @@
+Message at 2023/3/1 11:00:08: Importing GBlur.fx with Microsoft.Xna.Framework.Content.Pipeline.EffectImporter
+Message at 2023/3/1 11:00:08: Processing GBlur.fx with Microsoft.Xna.Framework.Content.Pipeline.Processors.EffectProcessor
+Error at 2023/3/1 11:00:08: Errors compiling E:\Software\XNB v1.1\GBlur.fx:
+E:\Software\XNB v1.1\GBlur.fx(44,11): error X3000: syntax error: unexpected token 'Technique'
+Message at 2023/3/1 11:00:56: Importing GBlur.fx with Microsoft.Xna.Framework.Content.Pipeline.EffectImporter
+Message at 2023/3/1 11:00:57: Processing GBlur.fx with Microsoft.Xna.Framework.Content.Pipeline.Processors.EffectProcessor
+Error at 2023/3/1 11:00:57: Errors compiling E:\Software\XNB v1.1\GBlur.fx:
+E:\Software\XNB v1.1\GBlur.fx(47,6): error X3000: syntax error: unexpected token ''
+Message at 2023/3/1 11:04:49: Importing GBlur.fx with Microsoft.Xna.Framework.Content.Pipeline.EffectImporter
+Message at 2023/3/1 11:04:49: Processing GBlur.fx with Microsoft.Xna.Framework.Content.Pipeline.Processors.EffectProcessor
+Message at 2023/3/1 11:04:49: Compiling Content\GBlur.xnb
+Message at 2023/3/1 15:45:54: Importing GBlur.fx with Microsoft.Xna.Framework.Content.Pipeline.EffectImporter
+Message at 2023/3/1 15:45:54: Processing GBlur.fx with Microsoft.Xna.Framework.Content.Pipeline.Processors.EffectProcessor
+Message at 2023/3/1 15:45:54: Compiling Content\GBlur.xnb
+Message at 2023/3/1 15:45:54: Importing Player.fx with Microsoft.Xna.Framework.Content.Pipeline.EffectImporter
+Message at 2023/3/1 15:45:54: Processing Player.fx with Microsoft.Xna.Framework.Content.Pipeline.Processors.EffectProcessor
+Message at 2023/3/1 15:45:54: Compiling Content\Player.xnb
