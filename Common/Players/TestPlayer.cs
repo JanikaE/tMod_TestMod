@@ -8,6 +8,14 @@ namespace TestMod.Common.Players
 {
     internal class TestPlayer : ModPlayer
     {
+        public bool isGBlur;
+
+        public override void Initialize()
+        {
+            base.Initialize();
+            isGBlur = false;
+        }
+
         [System.Obsolete]
         public override bool PreHurt(bool pvp, bool quiet, ref int damage, ref int hitDirection, ref bool crit, ref bool customDamage, ref bool playSound, ref bool genGore, ref PlayerDeathReason damageSource)
         {
@@ -24,10 +32,15 @@ namespace TestMod.Common.Players
         {
             base.PreUpdate();
 
-            if (!Filters.Scene["TestMod:GBlur"].IsActive())
+            if (!Filters.Scene["TestMod:GBlur"].IsActive() && isGBlur)
             {
                 // 开启滤镜
                 Filters.Scene.Activate("TestMod:GBlur");
+            }
+            if (Filters.Scene["TestMod:GBlur"].IsActive() && !isGBlur)
+            {
+                // 关闭滤镜
+                Filters.Scene.Deactivate("TestMod:GBlur");
             }
         }
     }
