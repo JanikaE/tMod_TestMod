@@ -16,8 +16,7 @@ namespace TestMod.Common.Players
             isGBlur = false;
         }
 
-        [System.Obsolete]
-        public override bool PreHurt(bool pvp, bool quiet, ref int damage, ref int hitDirection, ref bool crit, ref bool customDamage, ref bool playSound, ref bool genGore, ref PlayerDeathReason damageSource)
+        public override bool PreHurt(bool pvp, bool quiet, ref int damage, ref int hitDirection, ref bool crit, ref bool customDamage, ref bool playSound, ref bool genGore, ref PlayerDeathReason damageSource, ref int cooldownCounter)
         {
             if (Player.HasBuff<LockBlood>() && !Player.HasBuff<LockBloodCD>() && damage > Player.statLife)
             {
@@ -32,12 +31,17 @@ namespace TestMod.Common.Players
         {
             base.PreUpdate();
 
-            if (!Filters.Scene["TestMod:GBlur"].IsActive() && isGBlur)
+            //if (!Filters.Scene["TestMod:GBlur"].IsActive())
+            //{
+            //    // 开启滤镜
+            //    Filters.Scene.Activate("TestMod:GBlur");
+            //}
+            if (isGBlur)
             {
                 // 开启滤镜
                 Filters.Scene.Activate("TestMod:GBlur");
             }
-            if (Filters.Scene["TestMod:GBlur"].IsActive() && !isGBlur)
+            else
             {
                 // 关闭滤镜
                 Filters.Scene.Deactivate("TestMod:GBlur");

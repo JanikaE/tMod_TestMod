@@ -1,0 +1,51 @@
+Message at 2023/3/1 11:00:08: Importing GBlur.fx with Microsoft.Xna.Framework.Content.Pipeline.EffectImporter
+Message at 2023/3/1 11:00:08: Processing GBlur.fx with Microsoft.Xna.Framework.Content.Pipeline.Processors.EffectProcessor
+Error at 2023/3/1 11:00:08: Errors compiling E:\Software\XNB v1.1\GBlur.fx:
+E:\Software\XNB v1.1\GBlur.fx(44,11): error X3000: syntax error: unexpected token 'Technique'
+Message at 2023/3/1 11:00:56: Importing GBlur.fx with Microsoft.Xna.Framework.Content.Pipeline.EffectImporter
+Message at 2023/3/1 11:00:57: Processing GBlur.fx with Microsoft.Xna.Framework.Content.Pipeline.Processors.EffectProcessor
+Error at 2023/3/1 11:00:57: Errors compiling E:\Software\XNB v1.1\GBlur.fx:
+E:\Software\XNB v1.1\GBlur.fx(47,6): error X3000: syntax error: unexpected token ''
+Message at 2023/3/1 11:04:49: Importing GBlur.fx with Microsoft.Xna.Framework.Content.Pipeline.EffectImporter
+Message at 2023/3/1 11:04:49: Processing GBlur.fx with Microsoft.Xna.Framework.Content.Pipeline.Processors.EffectProcessor
+Message at 2023/3/1 11:04:49: Compiling Content\GBlur.xnb
+Message at 2023/3/1 15:45:54: Importing GBlur.fx with Microsoft.Xna.Framework.Content.Pipeline.EffectImporter
+Message at 2023/3/1 15:45:54: Processing GBlur.fx with Microsoft.Xna.Framework.Content.Pipeline.Processors.EffectProcessor
+Message at 2023/3/1 15:45:54: Compiling Content\GBlur.xnb
+Message at 2023/3/1 15:45:54: Importing Player.fx with Microsoft.Xna.Framework.Content.Pipeline.EffectImporter
+Message at 2023/3/1 15:45:54: Processing Player.fx with Microsoft.Xna.Framework.Content.Pipeline.Processors.EffectProcessor
+Message at 2023/3/1 15:45:54: Compiling Content\Player.xnb
+Message at 2023/3/2 12:44:27: Importing GBlur.fx with Microsoft.Xna.Framework.Content.Pipeline.EffectImporter
+Message at 2023/3/2 12:44:27: Processing GBlur.fx with Microsoft.Xna.Framework.Content.Pipeline.Processors.EffectProcessor
+Message at 2023/3/2 12:44:27: Compiling Content\GBlur.xnb
+Message at 2023/3/2 12:44:27: Importing NPC.fx with Microsoft.Xna.Framework.Content.Pipeline.EffectImporter
+Message at 2023/3/2 12:44:27: Processing NPC.fx with Microsoft.Xna.Framework.Content.Pipeline.Processors.EffectProcessor
+Message at 2023/3/2 12:44:27: Compiling Content\NPC.xnb
+Message at 2023/3/2 12:54:44: Importing GBlur.fx with Microsoft.Xna.Framework.Content.Pipeline.EffectImporter
+Message at 2023/3/2 12:54:44: Processing GBlur.fx with Microsoft.Xna.Framework.Content.Pipeline.Processors.EffectProcessor
+Message at 2023/3/2 12:54:44: Compiling Content\GBlur.xnb
+Message at 2023/3/2 12:54:44: Importing NPC.fx with Microsoft.Xna.Framework.Content.Pipeline.EffectImporter
+Message at 2023/3/2 12:54:44: Processing NPC.fx with Microsoft.Xna.Framework.Content.Pipeline.Processors.EffectProcessor
+Message at 2023/3/2 12:54:44: Compiling Content\NPC.xnb
+Message at 2023/3/2 12:54:44: Importing Projectile.fx with Microsoft.Xna.Framework.Content.Pipeline.EffectImporter
+Message at 2023/3/2 12:54:44: Processing Projectile.fx with Microsoft.Xna.Framework.Content.Pipeline.Processors.EffectProcessor
+Message at 2023/3/2 12:54:44: Compiling Content\Projectile.xnb
+Message at 2023/3/2 13:43:03: Importing GBlur.fx with Microsoft.Xna.Framework.Content.Pipeline.EffectImporter
+Message at 2023/3/2 13:43:03: Processing GBlur.fx with Microsoft.Xna.Framework.Content.Pipeline.Processors.EffectProcessor
+Message at 2023/3/2 13:43:03: Compiling Content\GBlur.xnb
+Message at 2023/3/2 13:43:03: Importing NPC.fx with Microsoft.Xna.Framework.Content.Pipeline.EffectImporter
+Message at 2023/3/2 13:43:03: Processing NPC.fx with Microsoft.Xna.Framework.Content.Pipeline.Processors.EffectProcessor
+Message at 2023/3/2 13:43:03: Compiling Content\NPC.xnb
+Message at 2023/3/2 13:43:03: Importing Projectile.fx with Microsoft.Xna.Framework.Content.Pipeline.EffectImporter
+Message at 2023/3/2 13:43:03: Processing Projectile.fx with Microsoft.Xna.Framework.Content.Pipeline.Processors.EffectProcessor
+Error at 2023/3/2 13:43:03: Errors compiling C:\Users\DELL\Documents\My Games\Terraria\tModLoader\ModSources\TestMod\Common\Effects\Projectile.fx:
+C:\Users\DELL\Documents\My Games\Terraria\tModLoader\ModSources\TestMod\Common\Effects\Projectile.fx(9,40): error X3004: undeclared identifier 'Length'
+Message at 2023/3/2 13:49:09: Importing GBlur.fx with Microsoft.Xna.Framework.Content.Pipeline.EffectImporter
+Message at 2023/3/2 13:49:09: Processing GBlur.fx with Microsoft.Xna.Framework.Content.Pipeline.Processors.EffectProcessor
+Message at 2023/3/2 13:49:09: Compiling Content\GBlur.xnb
+Message at 2023/3/2 13:49:09: Importing NPC.fx with Microsoft.Xna.Framework.Content.Pipeline.EffectImporter
+Message at 2023/3/2 13:49:09: Processing NPC.fx with Microsoft.Xna.Framework.Content.Pipeline.Processors.EffectProcessor
+Message at 2023/3/2 13:49:09: Compiling Content\NPC.xnb
+Message at 2023/3/2 13:49:09: Importing Projectile.fx with Microsoft.Xna.Framework.Content.Pipeline.EffectImporter
+Message at 2023/3/2 13:49:09: Processing Projectile.fx with Microsoft.Xna.Framework.Content.Pipeline.Processors.EffectProcessor
+Message at 2023/3/2 13:49:09: Compiling Content\Projectile.xnb

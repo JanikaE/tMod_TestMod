@@ -5,6 +5,7 @@ using Terraria.DataStructures;
 using Terraria.ID;
 using Terraria.Localization;
 using Terraria.ModLoader;
+using TestMod.Content.Projectiles;
 
 namespace TestMod.Content.Items.Sword
 {
@@ -35,7 +36,7 @@ namespace TestMod.Content.Items.Sword
             Item.DamageType = DamageClass.Melee;
             Item.knockBack = 6;
             Item.autoReuse = true;
-            Item.shoot = ProjectileID.WaterBolt;
+            Item.shoot = ModContent.ProjectileType<Bubble>();
             Item.shootSpeed = 100f;
         }
 
@@ -65,10 +66,10 @@ namespace TestMod.Content.Items.Sword
             for (int i = -2; i <= 2; i++)
             {
                 float r2 = r + i * MathHelper.Pi / 36f;
-                velocity = r2.ToRotationVector2() * 20;
+                velocity = r2.ToRotationVector2() * 5;
                 Projectile.NewProjectile(source, position, velocity, type, 50, knockback, player.whoAmI);
             }
-            return true;
+            return false;
         }
     }
 }
