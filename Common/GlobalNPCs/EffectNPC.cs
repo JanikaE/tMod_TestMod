@@ -2,6 +2,7 @@
 using Microsoft.Xna.Framework.Graphics;
 using Terraria;
 using Terraria.ModLoader;
+using TestMod.Common.Players;
 
 namespace TestMod.Common.GlobalNPCs
 {
@@ -17,7 +18,10 @@ namespace TestMod.Common.GlobalNPCs
         {
             spriteBatch.End();
             spriteBatch.Begin(SpriteSortMode.Immediate, BlendState.NonPremultiplied, SamplerState.AnisotropicClamp, DepthStencilState.None, RasterizerState.CullNone, null, Main.GameViewMatrix.TransformationMatrix);
-            TestMod.NPCEffect.CurrentTechnique.Passes["Test"].Apply();
+            if (Main.LocalPlayer.GetModPlayer<TestPlayer>().isNPCGray)
+            {
+                TestMod.NPCEffect.CurrentTechnique.Passes["Test"].Apply();
+            }            
             return true;
         }
     }

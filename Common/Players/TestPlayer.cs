@@ -9,11 +9,13 @@ namespace TestMod.Common.Players
     internal class TestPlayer : ModPlayer
     {
         public bool isGBlur;
+        public bool isNPCGray;
 
         public override void Initialize()
         {
             base.Initialize();
             isGBlur = false;
+            isNPCGray = false;
         }
 
         public override bool PreHurt(bool pvp, bool quiet, ref int damage, ref int hitDirection, ref bool crit, ref bool customDamage, ref bool playSound, ref bool genGore, ref PlayerDeathReason damageSource, ref int cooldownCounter)
